@@ -47,31 +47,31 @@ TestPerformance.java
 	to get the running time in milliseconds and how the test running times were recorded.
 
 	SIZE 10
-				 #1   #2   #3  
+			                	 #1   #2   #3
         testArrayListAddRemove:  21ms 20ms 18ms 
         testLinkedListAddRemove: 20ms 19ms 21ms 
-	testArrayListAccess:     9ms  11ms 8ms 
+	    testArrayListAccess:     9ms  11ms 8ms
         testLinkedListAccess:    8ms  9ms  7ms 
 
 	SIZE 100
-				 #1   #2   #3  
+				                 #1   #2   #3
         testArrayListAddRemove:  32ms 30ms 30ms
         testLinkedListAddRemove: 27ms 20ms 23ms
-	testArrayListAccess:     12ms 9ms  20ms 
+	    testArrayListAccess:     12ms 9ms  20ms
         testLinkedListAccess:    25ms 19ms 21ms 
 
 	SIZE 1000
-				 #1    #2    #3   
+				                 #1    #2    #3
         testArrayListAddRemove:  113ms 111ms 118ms 
         testLinkedListAddRemove: 27ms  28ms  19ms
-	testArrayListAccess:     13ms  13ms  11ms 
+	    testArrayListAccess:     13ms  13ms  11ms
         testLinkedListAccess:    299ms 291ms 309ms
 
 	SIZE 10000
-				 #1     #2     #3   
+			                   	 #1     #2     #3
         testArrayListAddRemove:  1128ms 1114ms 1176ms 
         testLinkedListAddRemove: 21ms   22ms   22ms
-	testArrayListAccess:     13ms   13ms   12ms
+	    testArrayListAccess:     13ms   13ms   12ms
         testLinkedListAccess:    3918ms 3889ms 3701ms
 
 	listAccess - which type of List is better to use, and why?

@@ -20,6 +20,7 @@ public class TestIterator {
 
   @Before
   public void setUp() throws Exception {
+    //list = new ArrayList<Integer>();
     list = new LinkedList<Integer>();
     // TODO also try with a LinkedList - does it make any difference behaviorally? (ignore performance)
   }
@@ -110,6 +111,7 @@ public class TestIterator {
     // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
 
       final Iterator<Integer> i = list.iterator();
+      //If there's another value, continue the loop:
       while (i.hasNext()){
           sum += i.next().intValue();
           n++;
